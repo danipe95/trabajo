@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Registro Cliente</string>
+    <string name="app_name">Appis</string>
+
+    <string name="txt_username">Username</string>
+
+    <string name="txt_password">Password</string>
+
+    <string name="txt_welcome">Welcome</string>
+
+    <string name="txt_Home">Welcome to APPIS</string>
+
+    <string name="txt_Login">LOGIN</string>
 </resources>

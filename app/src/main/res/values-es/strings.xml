@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Appis</string>
+
+    <string name="txt_username">Nombre de usuario</string>
+
+    <string name="txt_password">Contraseña</string>
+
+    <string name="txt_welcome">Bienvenido/a</string>
+
+    <string name="txt_Home">Bienvenido(a) a APPIS</string>
+
+    <string name="txt_Login">Iniciar</string>
+</resources>
