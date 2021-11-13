@@ -20,15 +20,6 @@
             android:text="Registro Cliente"
             android:textColor="@color/black"
             android:textSize="40sp"/>
-        <!--<ImageView
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:src="@drawable/u_logo_caldas"/>
-        <ImageView
-            android:layout_width="180dp"
-            android:layout_height="180dp"
-            android:src="@drawable/mision_tic_2022" />-->
-
 
     </LinearLayout>
 
@@ -49,7 +40,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Pepito"/>
+            android:digits = "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -59,7 +51,8 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Perez"/>
+            android:digits = "abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,27 +62,43 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="email@domain.com"/>
+            android:hint="email@domain.com" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Teléfono"
             android:textColor="@color/black"
             android:textSize="20sp"/>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="3105676843"/>
+            android:hint="+57 3105676843"
+            android:phoneNumber="true"/>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Contraseña"
             android:textColor="@color/black"
             android:textSize="20sp"/>
-        <EditText
+
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Tú contraseña"/>
+            android:hint="*****"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="15"
+                android:background="@android:color/transparent"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <CheckBox
             android:id="@+id/checkBox"

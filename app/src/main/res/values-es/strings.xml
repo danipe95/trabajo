@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Appis</string>
 
-    <string name="txt_username">Nombre de usuario</string>
+    <string name="txt_username">Nombre de usuario o Email</string>
 
     <string name="txt_password">Contraseña</string>
 
