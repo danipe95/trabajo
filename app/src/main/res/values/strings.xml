@@ -1,13 +1,40 @@
 <resources>
+
+    /* Main Activity */
     <string name="app_name">APPIS</string>
-
     <string name="txt_username">Username or Email</string>
-
     <string name="txt_password">Password</string>
-
     <string name="txt_welcome">Welcome</string>
-
     <string name="txt_Home">Welcome to APPIS Marketplace</string>
-
     <string name="txt_Login">LOGIN</string>
+
+    /* Categories */
+    <string name="txt_categories">Categories of Products</string>
+    <string name="txt_dogs">Dogs</string>
+    <string name="txt_cats">Cats</string>
+    <string name="txt_choose">Pick the icon you to see different products options for your pet</string>
+
+    /* Products Dogs */
+    <string name="txt_dog_one">Nutra Nuggets</string>
+    <string name="txt_dog_two">Hills Canine</string>
+    <string name="txt_dog_three">Agility Gold</string>
+    <string name="txt_dog_four">Nutriss Adulto</string>
+    <string name="txt_dog_five">Nutrecan</string>
+    <string name="txt_dog_six">Diamond</string>
+    <string name="txt_dog_seven">Chunky</string>
+    <string name="txt_dog_eight">Monello Puppy</string>
+    <string name="txt_dog_nine">Max</string>
+    <string name="txt_dog_ten">Monello Select Senior</string>
+
+    /* Products Cats */
+    <string name="txt_cat_one">Nutra Nuggets</string>
+    <string name="txt_cat_two">ProPlan Cat</string>
+    <string name="txt_cat_three">Hills Feline</string>
+    <string name="txt_cat_four">Royal Canin</string>
+    <string name="txt_cat_five">Miringo</string>
+    <string name="txt_cat_six">Nutrecat</string>
+    <string name="txt_cat_seven">Purina Cat Chow</string>
+    <string name="txt_cat_eight">Evolve</string>
+    <string name="txt_cat_nine">Diamond</string>
+    <string name="txt_cat_ten">Monello Select Cat</string>
 </resources>
