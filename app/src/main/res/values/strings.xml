@@ -10,11 +10,12 @@
 
     /* Categories */
     <string name="txt_categories">Categories of Products</string>
-    <string name="txt_dogs">Dogs</string>
-    <string name="txt_cats">Cats</string>
+    <string name="txt_dogs">Buy food for Dogs</string>
+    <string name="txt_cats">Buy food for Cats</string>
     <string name="txt_choose">Pick the icon you to see different products options for your pet</string>
 
     /* Products Dogs */
+    <string name="txt_intro_dogs">Find in this section the food you need for your dog. We are the best pet app store thanks to our large inventory of products for your furry; we strive every day to offer you the best service. Place your order online, pay with your preferred payment method and receive your purchase at home in the shortest possible time.</string>
     <string name="txt_dog_one">Nutra Nuggets</string>
     <string name="txt_dog_two">Hills Canine</string>
     <string name="txt_dog_three">Agility Gold</string>
@@ -27,6 +28,8 @@
     <string name="txt_dog_ten">Monello Select Senior</string>
 
     /* Products Cats */
+    <string name="txt_intro_cats">
+The pet store with the largest variety of articles and products for cats is Appis. We love your cat as much as you do, that is why we are expanding our nutritional offer for your feline daily. Buy now and receive your products at home.</string>
     <string name="txt_cat_one">Nutra Nuggets</string>
     <string name="txt_cat_two">ProPlan Cat</string>
     <string name="txt_cat_three">Hills Feline</string>
