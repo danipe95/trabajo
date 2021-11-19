@@ -7,6 +7,8 @@ import android.view.View
 
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        Thread.sleep(2000)
+        setTheme(R.style.Theme_Job1)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
     }
