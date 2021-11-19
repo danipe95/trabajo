@@ -8,6 +8,14 @@
     <string name="txt_Home">Welcome to APPIS Marketplace</string>
     <string name="txt_Login">LOGIN</string>
 
+    /* Register Activity */
+    <string name="txt_titleR">Client Register</string>
+    <string name="client_name">Name</string>
+    <string name="client_lastname">Lastname</string>
+    <string name="client_email">E-mail</string>
+    <string name="client_phone">Phone number</string>
+
+
     /* Categories */
     <string name="txt_categories">Categories of Products</string>
     <string name="txt_dogs">Buy food for Dogs</string>
