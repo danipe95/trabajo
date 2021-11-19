@@ -7,6 +7,14 @@
     <string name="txt_Home">Bienvenido(a) a  APPIS Tienda</string>
     <string name="txt_Login">Iniciar</string>
 
+    /* Register Activity */
+    <string name="txt_titleR">Registro Cliente</string>
+    <string name="client_name">Nombre</string>
+    <string name="client_lastname">Apellido</string>
+    <string name="client_email">Correo</string>
+    <string name="client_phone">Número de télefono</string>
+
+
     /* Categories */
     <string name="txt_categories">Categorias de Productos</string>
     <string name="txt_dogs">Compra comida para Perros</string>
