@@ -11,7 +11,11 @@ class LoginActivity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
     }
 
-    fun onLogout(botonlogout:View) {
+    fun onProductos(botonProductos: View) {
+        val intento = Intent(this, products::class.java)
+        startActivity(intento)
+    }
+    fun onLogout(botonSalir: View) {
         val intento = Intent(this, MainActivity::class.java)
         startActivity(intento)
     }

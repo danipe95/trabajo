@@ -46,6 +46,7 @@
 
         <ImageButton
             android:id="@+id/icon_dog"
+            android:onClick="onDogs"
             android:layout_width="1dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -54,11 +55,12 @@
 
         <ImageButton
             android:id="@+id/icon_cat"
+            android:onClick="onCats"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:scaleType="centerInside"
-            app:srcCompat="@drawable/icon_cat" />
+            app:srcCompat="@drawable/icon_cat"/>
 
 
     </LinearLayout>
