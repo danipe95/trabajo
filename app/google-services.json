@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "574079075791",
+    "project_id": "appis-pet-foods",
+    "storage_bucket": "appis-pet-foods.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574079075791:android:6414a08589fbdfc8dc7eba",
+        "android_client_info": {
+          "package_name": "com.example.job1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574079075791-kr76dadun5l13pqe4d7b8l2iepk5qbtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbyYiLiS6d2S-E5FNu-unMqXXqfXz9HZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574079075791-kr76dadun5l13pqe4d7b8l2iepk5qbtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
