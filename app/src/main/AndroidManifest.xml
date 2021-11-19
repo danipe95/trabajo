@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Job1">
         <activity
+            android:name=".products"
+            android:exported="false" />
+        <activity
+            android:name=".dogs"
+            android:exported="false" />
+        <activity
+            android:name=".cats"
+            android:exported="false" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity
@@ -26,7 +35,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
