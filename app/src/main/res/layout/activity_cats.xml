@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
-
     <LinearLayout
 
         android:layout_width="match_parent"
@@ -26,17 +25,7 @@
                 android:gravity="center"
                 android:text="@string/txt_cats"
                 android:textColor="@color/black"
-                android:textSize="30sp" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="130dp"
-                android:layout_margin="16dp"
-                android:fontFamily="sans-serif-thin"
-                android:gravity="center_vertical"
-                android:text="@string/txt_intro_cats"
-                android:textColor="@color/black"
-                android:textSize="10sp" />
+                android:textSize="30sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -50,11 +39,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_one" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_1"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -76,11 +64,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_two" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_2"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -102,11 +89,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_three" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_3"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -128,11 +114,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_four" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_4"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -154,11 +139,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_five" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_5"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -180,11 +164,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_six" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_6"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -206,11 +189,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_seven" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_7"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -232,11 +214,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_eight" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_8"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -258,11 +239,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_nine" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_9"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -284,11 +264,10 @@
                     android:gravity="center_vertical"
                     android:text="@string/txt_cat_ten" />
 
-                <ImageView
+                <ImageButton
                     android:id="@+id/cat_10"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"

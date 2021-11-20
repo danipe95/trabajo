@@ -19,7 +19,7 @@
     <string name="txt_categories">Categorias de Productos</string>
     <string name="txt_dogs">Compra comida para Perros</string>
     <string name="txt_cats">Compra comida para Gatos</string>
-    <string name="txt_choose">Selecciona el icono para ver diferentes opciones de productos para tu mascota</string>
+    <string name="txt_choose">ⓘ Selecciona el icono para ver diferentes opciones de productos para tu mascota</string>
 
     /* Products Dogs */
     <string name="txt_intro_dogs">Encuentra en esta sección la comida que necesitas para tu perro. Somos la mejor tienda app de mascotas gracias a nuestro nutrido inventario de productos para tu peludo; nos esmeramos día a día en ofrecerte el mejor servicio. Haz tu pedido online, paga con tu método de pago preferido y recibe tu compra a domicilio en el menor tiempo posible.</string>
@@ -35,7 +35,7 @@
     <string name="txt_dog_ten">Monello Select Senior</string>
 
     /* Products Cats */
-    <string name="txt_intro_cats">La tienda de mascotas con la mayor variedad de artículos y productos para gatos es Appis. Amamos a tu gato tanto como tú, por eso diariamente estamos ampliando nuestra oferna nutricional para tu felino. Compra ahora y recibe tus productos a domicilio.</string>
+    <string name="txt_intro">La tienda de mascotas con la mayor variedad de productos para mascotas es Appis. Amamos a tu mascota tanto como tú, por eso diariamente estamos ampliando nuestra oferna nutricional para tu mascota. ¡Compra ahora y recibe tus productos a domicilio!.</string>
     <string name="txt_cat_one">Nutra Nuggets</string>
     <string name="txt_cat_two">ProPlan Cat</string>
     <string name="txt_cat_three">Hills Feline</string>
