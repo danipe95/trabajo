@@ -22,8 +22,8 @@ enum class ProviderType {
 }
 
 class MainActivity : AppCompatActivity() {
-    private var editUsername: EditText? = null
-    private var editPassword: EditText? = null
+    private var edtUsername: EditText? = null
+    private var edtPassword: EditText? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         Thread.sleep(2000)
         setTheme(R.style.Theme_Job1)
@@ -40,8 +40,8 @@ class MainActivity : AppCompatActivity() {
         )
         analytics.logEvent(resources.getString(R.string.mersh), bundle)
 
-        editUsername = findViewById(R.id.edtUsername)
-        editPassword = findViewById(R.id.edtPassword)
+        edtUsername = findViewById(R.id.edtUsername)
+        edtPassword = findViewById(R.id.edtPassword)
 
         title = resources.getString(R.string.txt_Login)
 
@@ -60,10 +60,7 @@ class MainActivity : AppCompatActivity() {
     }
     */
 
-    fun onRegister(botonRegister: View) {
-        val intento = Intent(this, registro::class.java)
-        startActivity(intento)
-    }
+
 
 
     override fun onStart() {
@@ -104,8 +101,8 @@ class MainActivity : AppCompatActivity() {
 
 
     fun onLogin(view: View) {
-        var username = editUsername!!.text.toString();
-        var password = editPassword!!.text.toString();
+        var username = edtUsername!!.text.toString();
+        var password = edtPassword!!.text.toString();
 
         if (username.isNotEmpty() && password.isNotEmpty()) {
             FirebaseAuth.getInstance().signInWithEmailAndPassword(username, password)
@@ -121,6 +118,26 @@ class MainActivity : AppCompatActivity() {
             getToast(resources.getString(R.string.error_login));
         }
 
+    }
+
+    fun onRegister(botonRegister: View) {
+        var username = edtUsername!!.text.toString();
+
+        var password = edtPassword!!.text.toString();
+
+        if (username.isNotEmpty() && password.isNotEmpty()) {
+            FirebaseAuth.getInstance().createUserWithEmailAndPassword(username, password)
+                .addOnCompleteListener {
+                    if (it.isSuccessful) {
+                        showHome(username, ProviderType.BASIC)
+                    } else {
+                        getToast(resources.getString(R.string.error_auth));
+                    }
+                }
+
+        } else {
+            getToast(resources.getString(R.string.error_login));
+        }
     }
 
     private fun showHome(username: String, provider: ProviderType) {
