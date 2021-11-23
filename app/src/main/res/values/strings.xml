@@ -58,4 +58,14 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
+
+    <string name="mersh">Mersh</string>
+    <string name="test_login">Start</string>
+    <string name="preds_file" translatable="false">com.example.Job1.PREFERECE_FILE_KEY</string>
+
+    //Message error
+    <string name="error_login">Invalid username or password</string>
+    <string name="error_auth">Failed to authenticate</string>
+    <string name="fire_base">FireBase</string>
+    <string name="fire_base_message">Integration of Firebase complete</string>
 </resources>
