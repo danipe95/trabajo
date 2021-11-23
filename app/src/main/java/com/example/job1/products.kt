@@ -9,7 +9,9 @@ class products : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_products)
+        title = resources.getString(R.string.txt_categories)
     }
+
 
     fun onCats(botonPCats: View) {
         val intento = Intent(this, cats::class.java)
