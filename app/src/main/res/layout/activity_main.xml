@@ -6,10 +6,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <!--    ScrollVie-->
 
 
     <LinearLayout
+
 
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -93,17 +93,23 @@
 
 
                 <ImageButton
+                    android:id="@+id/btnGoogle"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginRight="10dp"
-                    android:background="@drawable/google" />
+                    android:background="@drawable/google"
+                    android:onClick="googleLogin"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
 
                 <ImageButton
+                    android:id="@+id/btnFacebook"
                     android:layout_width="60dp"
                     android:layout_height="60dp"
                     android:layout_marginLeft="10dp"
-                    android:background="@drawable/facebook" />
+                    android:background="@drawable/facebook"
+                    android:onClick="facebookLogin"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
 
             </LinearLayout>
@@ -140,3 +146,4 @@
 
     </LinearLayout>
 </LinearLayout>
+

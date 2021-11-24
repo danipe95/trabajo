@@ -59,7 +59,8 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="mersh">Mercado</string>
     <string name="test_login">Iniciar</string>
-    <string name="preds_file" translatable="false">com.example.marketplace.PREFERECE_FILE_KEY</string>
+
+
     //Message error
     <string name="error_login">Usuario o contraseña invalida</string>
     <string name="error_auth">Autentificacion fallida</string>
