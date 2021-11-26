@@ -68,4 +68,6 @@
     <string name="error_auth">Failed to authenticate</string>
     <string name="fire_base">FireBase</string>
     <string name="fire_base_message">Integration of Firebase complete</string>
+    <string name="facebook_app_id" translatable="false">231283592404544</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb231283592404544</string>
 </resources>

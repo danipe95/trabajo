@@ -27,6 +27,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.GoogleAuthProvider
 
 
+
 enum class ProviderType {
     BASIC,
     GOOGLE,
@@ -137,25 +138,15 @@ class MainActivity : AppCompatActivity() {
 
     }
 //Boton register
-    fun onRegister(botonRegister: View) {
-        var username = edtUsername!!.text.toString();
+fun onRegister(botonRegister: View) {
+    val intento = Intent(this, registro::class.java)
+    startActivity(intento)
+    getToast("Registro")
 
-        var password = edtPassword!!.text.toString();
 
-        if (username.isNotEmpty() && password.isNotEmpty()) {
-            FirebaseAuth.getInstance().createUserWithEmailAndPassword(username, password)
-                .addOnCompleteListener {
-                    if (it.isSuccessful) {
-                        showHome(username, ProviderType.BASIC)
-                    } else {
-                        getToast(resources.getString(R.string.error_auth));
-                    }
-                }
+}
 
-        } else {
-            getToast(resources.getString(R.string.error_login));
-        }
-    }
+
 //Mostrar
     private fun showHome(username: String, provider: ProviderType) {
 
