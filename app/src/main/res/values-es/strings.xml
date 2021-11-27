@@ -70,4 +70,5 @@
     //Menú de navegación
     <string name="go_out">Salir</string>
     <string name="cart">Carrito</string>
+    <string name="default_web_client_id2" />
 </resources>

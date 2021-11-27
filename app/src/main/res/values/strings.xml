@@ -68,4 +68,9 @@
     <string name="error_auth">Failed to authenticate</string>
     <string name="fire_base">FireBase</string>
     <string name="fire_base_message">Integration of Firebase complete</string>
+    <string name="default_web_client_id2" />
+
+    //Menú de navegación
+    <string name="go_out">Exit</string>
+    <string name="cart">Cart</string>
 </resources>

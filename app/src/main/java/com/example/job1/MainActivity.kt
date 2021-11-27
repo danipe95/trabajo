@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        Thread.sleep(1000)
+        Thread.sleep(100)
         setTheme(R.style.Theme_Job1)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
