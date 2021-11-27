@@ -65,4 +65,8 @@
     <string name="error_auth">Autentificacion fallida</string>
     <string name="fire_base">FireBase</string>
     <string name="fire_base_message">Integracion de Firebase completa</string>
+
+    //Menú de navegación
+    <string name="go_out">Salir</string>
+    <string name="cart">Carrito</string>
 </resources>

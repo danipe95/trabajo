@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
     private var editUsername: EditText? = null
     private var editPassword: EditText? = null
     override fun onCreate(savedInstanceState: Bundle?) {
-        Thread.sleep(2000)
+        Thread.sleep(1000)
         setTheme(R.style.Theme_Job1)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
