@@ -70,4 +70,8 @@
     <string name="fire_base_message">Integration of Firebase complete</string>
     <string name="facebook_app_id" translatable="false">231283592404544</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb231283592404544</string>
+
+    //MENU
+    <string name="cart">Cart</string>
+    <string name="logout">logout</string>
 </resources>
