@@ -58,6 +58,7 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
+    <string name="test_register">Registro</string>
 
     <string name="mersh">Mersh</string>
     <string name="test_login">Start</string>
@@ -70,6 +71,36 @@
     <string name="fire_base_message">Integration of Firebase complete</string>
     <string name="facebook_app_id" translatable="false">231283592404544</string>
     <string name="fb_login_protocol_scheme" translatable="false">fb231283592404544</string>
+
+    <string name="test_NameExample">Your Name</string>
+    <string name="test_LastName">Last Name</string>
+    <string name="test_LastNameExample">Your Last Name</string>
+    <string name="test_Mobile">Mobile</string>
+    <string name="test_MobileExample">311111111</string>
+    <string name="test_userExample">example@domain.com</string>
+    <string name="test_passwordExample">Your Password</string>
+
+    <string name="test_emailerror">It is not an email</string>
+
+    <string name="test_TermsLink">Terms and conditions</string>
+    <string name="test_TermsMessage">Accept all policies, security and terms when registering.</string>
+    <string name="test_ok">Accept</string>
+    <string name="test_cancel">Cancel</string>
+
+    //Empty
+    <string name="test_EmptyMail">Empty email</string>
+    <string name="test_EmptyPassword">Empty password</string>
+    <string name="test_EmptyName">Empty name</string>
+    <string name="test_EmptyLastName">Empty last name</string>
+    <string name="test_EmptyMobile">Empty mobile</string>
+
+    //request value
+
+    <string name="test_minimum8">Minimum 8 characters</string>
+    <string name="test_uppercase">At least one uppercase</string>
+    <string name="test_digit">At least one number</string>
+    <string name="test_character">At least one character</string>
+    <string name="test_lowercase">At least one lowercase</string>
 
     //MENU
     <string name="cart">Cart</string>

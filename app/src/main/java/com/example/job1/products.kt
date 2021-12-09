@@ -32,8 +32,17 @@ class products : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId){
-            R.id.action_profile -> MainActivity::class.java
+            R.id.action_logout ->{
 
+                val intento = Intent(this, MainActivity::class.java)
+                startActivity(intento)
+            }
+            R.id.action_profile ->{
+
+                val intento = Intent(this, MainActivity::class.java)
+                startActivity(intento)
+            }
+            else -> super.onOptionsItemSelected(item)
         }
         return super.onOptionsItemSelected(item)
     }

@@ -59,13 +59,42 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="mersh">Mercado</string>
     <string name="test_login">Iniciar</string>
-
+    <string name="test_register">Registro</string>
 
     //Message error
     <string name="error_login">Usuario o contraseña invalida</string>
     <string name="error_auth">Autentificacion fallida</string>
     <string name="fire_base">FireBase</string>
     <string name="fire_base_message">Integracion de Firebase completa</string>
+
+    <string name="test_NameExample">Your Name</string>
+    <string name="test_LastName">Last Name</string>
+    <string name="test_LastNameExample">Your Last Name</string>
+    <string name="test_Mobile">Mobile</string>
+    <string name="test_MobileExample">311111111</string>
+    <string name="test_userExample">example@domain.com</string>
+    <string name="test_passwordExample">Your Password</string>
+
+    <string name="test_emailerror">Esto no es un correo</string>
+
+    <string name="test_TermsLink">Terminos y condiciones</string>
+    <string name="test_TermsMessage">Acepta los terminos y condiciones cuando se registra</string>
+    <string name="test_ok">Aceptar</string>
+    <string name="test_cancel">Cancelar</string>
+
+    //empty
+    <string name="test_EmptyMail">Email vacio</string>
+    <string name="test_EmptyPassword">Contraseña vacia</string>
+    <string name="test_EmptyName">Nombre vacio</string>
+    <string name="test_EmptyLastName">Apellido Vacio</string>
+    <string name="test_EmptyMobile">Telefono vacio</string>
+
+    //Request value
+    <string name="test_minimum8">Minimo 8 caracteres</string>
+    <string name="test_uppercase">Al menos una mayuscula</string>
+    <string name="test_digit">Al menos un número</string>
+    <string name="test_character">Al menos un caracter especial </string>
+    <string name="test_lowercase">At least one lowercase</string>
 
     //MENU
     <string name="cart">Carrito</string>
