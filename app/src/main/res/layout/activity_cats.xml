@@ -44,6 +44,7 @@
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
+                    android:background="@color/white"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
                     android:scaleX="0.5"
@@ -67,6 +68,7 @@
                 <ImageButton
                     android:id="@+id/cat_2"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -92,6 +94,7 @@
                 <ImageButton
                     android:id="@+id/cat_3"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -117,6 +120,7 @@
                 <ImageButton
                     android:id="@+id/cat_4"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -142,6 +146,7 @@
                 <ImageButton
                     android:id="@+id/cat_5"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -167,6 +172,7 @@
                 <ImageButton
                     android:id="@+id/cat_6"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -192,6 +198,7 @@
                 <ImageButton
                     android:id="@+id/cat_7"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -217,6 +224,7 @@
                 <ImageButton
                     android:id="@+id/cat_8"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -242,6 +250,7 @@
                 <ImageButton
                     android:id="@+id/cat_9"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -267,6 +276,7 @@
                 <ImageButton
                     android:id="@+id/cat_10"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"

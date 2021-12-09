@@ -44,6 +44,7 @@
 
                 <ImageButton
                     android:id="@+id/dog_1"
+                    android:background="@color/white"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
@@ -70,6 +71,7 @@
 
                 <ImageButton
                     android:id="@+id/dog_2"
+                    android:background="@color/white"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
@@ -97,6 +99,7 @@
                 <ImageButton
                     android:id="@+id/dog_3"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -122,6 +125,7 @@
 
                 <ImageButton
                     android:id="@+id/dog_4"
+                    android:background="@color/white"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
@@ -148,6 +152,7 @@
 
                 <ImageButton
                     android:id="@+id/dog_5"
+                    android:background="@color/white"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
@@ -174,6 +179,7 @@
 
                 <ImageButton
                     android:id="@+id/dog_6"
+                    android:background="@color/white"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
@@ -202,6 +208,7 @@
                     android:id="@+id/dog_7"
                     android:layout_width="112dp"
                     android:layout_height="wrap_content"
+                    android:background="@color/white"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
@@ -227,6 +234,7 @@
                 <ImageButton
                     android:id="@+id/dog_8"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -253,6 +261,7 @@
                 <ImageButton
                     android:id="@+id/dog_9"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
@@ -279,6 +288,7 @@
                 <ImageButton
                     android:id="@+id/dog_10"
                     android:layout_width="112dp"
+                    android:background="@color/white"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
                     android:cropToPadding="true"
