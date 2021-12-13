@@ -87,6 +87,11 @@
     <string name="test_ok">Accept</string>
     <string name="test_cancel">Cancel</string>
 
+    <string name="test_Seller">Seller</string>
+    <string name="test_Category">Category</string>
+    <string name="test_search">Search</string>
+    <string name="test_All">All</string>
+
     //Empty
     <string name="test_EmptyMail">Empty email</string>
     <string name="test_EmptyPassword">Empty password</string>

@@ -1,3 +1,4 @@
+/*
 package com.example.job1
 
 import android.content.Context
@@ -72,4 +73,4 @@ public class Adaptadorproduct {private val dataSet: MutableList<ProductEntity>,p
         interface OnItemClickListener{
             fun onItemClick(position: Int)
         }
-}
+}*/

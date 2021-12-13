@@ -38,6 +38,7 @@
                     android:orientation="vertical">
 
                     <TextView
+                        android:id="@+id/titleItem"
                         android:layout_width="123dp"
                         android:textSize="20dp"
                         android:layout_height="match_parent"
@@ -47,6 +48,7 @@
                         android:textColor="@color/com_facebook_blue" />
 
                     <TextView
+                        android:id="@+id/costItem"
                         android:layout_width="123dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
@@ -57,7 +59,7 @@
                 </LinearLayout>
 
                 <ImageButton
-                    android:id="@+id/cat_6"
+                    android:id="@+id/imagenItem"
                     android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
@@ -67,6 +69,26 @@
                     android:scaleX="0.5"
                     android:scaleY="0.5"
                     app:srcCompat="@drawable/perro_uno_pequeno" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/scoreItem"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/start"
+                    android:drawablePadding="5dp"
+                    android:singleLine="true"
+                    android:text="0"
+                    android:textColor="@color/blue_700"
+                    android:textSize="20dp" />
 
             </LinearLayout>
 
