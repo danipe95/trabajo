@@ -32,248 +32,41 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <TextView
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:layout_width="268dp"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_one" />
+                    android:orientation="vertical">
 
-                <ImageButton
-                    android:id="@+id/cat_1"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_uno_pequeno" />
+                    <TextView
+                        android:layout_width="123dp"
+                        android:textSize="20dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|bottom"
+                        android:text="@string/txt_cat_six"
+                        android:textColor="@color/com_facebook_blue" />
 
-            </LinearLayout>
+                    <TextView
+                        android:layout_width="123dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center|top"
+                        android:text="17.000$"
+                        android:textColor="@color/black" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_two" />
-
-                <ImageButton
-                    android:id="@+id/cat_2"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_dos_pequeno" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_three" />
-
-                <ImageButton
-                    android:id="@+id/cat_3"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_tres_pequeno" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_four" />
-
-                <ImageButton
-                    android:id="@+id/cat_4"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_cuatro_pequeno" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_five" />
-
-                <ImageButton
-                    android:id="@+id/cat_5"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_cinco_pequeno" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_six" />
+                </LinearLayout>
 
                 <ImageButton
                     android:id="@+id/cat_6"
-                    android:layout_width="112dp"
+                    android:layout_width="138dp"
                     android:layout_height="wrap_content"
                     android:adjustViewBounds="true"
+                    android:background="@color/white"
                     android:cropToPadding="true"
                     android:scaleType="centerInside"
                     android:scaleX="0.5"
                     android:scaleY="0.5"
                     android:src="@drawable/gato_seis_pequeno" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_seven" />
-
-                <ImageButton
-                    android:id="@+id/cat_7"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_siete_pequeno" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_eight" />
-
-                <ImageButton
-                    android:id="@+id/cat_8"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_ocho_pequeno" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_nine" />
-
-                <ImageButton
-                    android:id="@+id/cat_9"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_nueve_pequeno" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:gravity="center_vertical"
-                    android:text="@string/txt_cat_ten" />
-
-                <ImageButton
-                    android:id="@+id/cat_10"
-                    android:layout_width="112dp"
-                    android:layout_height="wrap_content"
-                    android:adjustViewBounds="true"
-                    android:cropToPadding="true"
-                    android:scaleType="centerInside"
-                    android:scaleX="0.5"
-                    android:scaleY="0.5"
-                    android:src="@drawable/gato_diez_pequeno" />
 
             </LinearLayout>
 
